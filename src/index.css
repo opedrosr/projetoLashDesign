@@ -2729,13 +2729,16 @@ em {
 
 @media (max-width: 520px) {
   .hero-floating-card {
-    top: 88px;
-    right: 16px;
-    bottom: auto;
+    position: static;
+
     width: 205px;
+    max-width: 100%;
+
+    margin-top: 24px;
     padding: 10px 11px;
+
     transform: none;
-    transform-origin: right top;
+    transform-origin: left top;
   }
 
   .floating-icon {

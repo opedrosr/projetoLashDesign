@@ -398,24 +398,24 @@ export default function App() {
                   <ArrowDown size={15} />
                 </a>
               </div>
-            </motion.div>
 
-            <motion.div
-              variants={fade}
-              initial="hidden"
-              animate="show"
-              transition={{ delay: 0.22 }}
-              className="hero-floating-card"
-              whileHover={{ y: -4 }}
-            >
-              <span className="floating-icon">
-                <Sparkles size={16} />
-              </span>
+              <motion.div
+                variants={fade}
+                initial="hidden"
+                animate="show"
+                transition={{ delay: 0.22 }}
+                className="hero-floating-card"
+                whileHover={{ y: -4 }}
+              >
+                <span className="floating-icon">
+                  <Sparkles size={16} />
+                </span>
 
-              <div>
-                <strong>Atendimento personalizado</strong>
-                <small>Mapeamento pensado para os seus fios.</small>
-              </div>
+                <div>
+                  <strong>Atendimento personalizado</strong>
+                  <small>Mapeamento pensado para os seus fios.</small>
+                </div>
+              </motion.div>
             </motion.div>
           </div>
 
