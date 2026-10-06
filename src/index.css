@@ -585,7 +585,7 @@ em {
   position: absolute;
 
   right: 3%;
-  bottom: 17%;
+  top: 28%;
 
   display: flex;
   align-items: center;
@@ -2729,12 +2729,13 @@ em {
 
 @media (max-width: 520px) {
   .hero-floating-card {
-    top: auto;
+    top: 88px;
     right: 16px;
-    bottom: 118px;
-    width: 220px;
-    padding: 11px;
+    bottom: auto;
+    width: 205px;
+    padding: 10px 11px;
     transform: none;
+    transform-origin: right top;
   }
 
   .floating-icon {
